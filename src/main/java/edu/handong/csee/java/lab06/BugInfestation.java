@@ -34,8 +34,8 @@ public class BugInfestation {
 		System.out.println("Initial Bug Population = " + startPopulation);
 		System.out.println("House Volume =  " + houseVolume);
 		System.out.println("Duration passed =  " + countWeeks);
-		System.out.println("Final population =  " + population);
-		System.out.println("Total Bug Volume =  " + totalBugVolume);
+		System.out.printf("Final population = %d\n ", (int)population);
+		System.out.println("Total Bug Volume =  " + (int)totalBugVolume);
 		
 		
 		
