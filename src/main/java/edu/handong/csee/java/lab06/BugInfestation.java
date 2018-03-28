@@ -46,7 +46,7 @@ public class BugInfestation {
 			totalBugVolume = totalBugVolume + newBugVolume; //new bug volume + original bug volume = new total bug volume
 			countWeeks++; // countweek = 1 + countweek
 		}
-		//print out when while loop conditions are met
+		//print out when while loop conditions are not met ie totalBugVolume > houseVolume
 		System.out.println("Initial Bug Population = " + startPopulation);   //print initial population
 		System.out.println("House Volume =  " + houseVolume + " cubic meters"); // print out initial house volume
 		System.out.println("Duration passed =  " + countWeeks+" weeks"); //print out no. of weeks passed
